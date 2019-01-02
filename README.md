@@ -1,7 +1,7 @@
 # Getting Started for Xamarin.Forms Charts
 This is demo application of Xamarin.Forms SfChart control. The minimal set of required properties have been configured in this project to get started with SfChart in Xamarin.Forms.
 
-For more details please refer the Xamarin.Forms UG documentation [Getting Started](https://help.syncfusion.com/xamarin/sfchart/getting-started) link.
+For more details please refer the Xamarin.Forms SfChart UG documentation [Getting Started](https://help.syncfusion.com/xamarin/sfchart/getting-started) link.
 
 ## <a name="requirements-to-run-the-demo"></a>Requirements to run the demo ##
 
