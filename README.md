@@ -11,3 +11,217 @@ For more details please refer the Xamarin.Forms SfChart UG documentation [Gettin
 ## <a name="troubleshooting"></a>Troubleshooting ##
 ### Path too long exception
 If you are facing path too long exception when building this example project, close Visual Studio and rename the repository to short and build the project.
+
+## <a name="description"></a>Description ##
+
+### Initialize Chart
+
+Import the [`SfChart`](https://help.syncfusion.com/cr/cref_files/xamarin/Syncfusion.SfChart.XForms~Syncfusion.SfChart.XForms.SfChart.html) namespace as shown below in your respective Page,
+
+{% tabs %} 
+
+{% highlight xaml %} 
+
+xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms" 
+
+{% endhighlight %}
+
+{% highlight C# %} 
+
+using Syncfusion.SfChart.XForms;
+
+{% endhighlight %}
+
+{% endtabs %} 
+
+Then initialize an empty chart with [`PrimaryAxis`](https://help.syncfusion.com/cr/cref_files/xamarin/Syncfusion.SfChart.XForms~Syncfusion.SfChart.XForms.SfChart~PrimaryAxis.html) and [`SecondaryAxis`](https://help.syncfusion.com/cr/cref_files/xamarin/Syncfusion.SfChart.XForms~Syncfusion.SfChart.XForms.SfChart~SecondaryAxis.html) as shown below,
+
+{% tabs %} 
+
+{% highlight xaml %} 
+<chart:SfChart>
+
+<chart:SfChart.PrimaryAxis>
+
+<chart:CategoryAxis>
+
+</chart:CategoryAxis>
+
+</chart:SfChart.PrimaryAxis>
+
+<chart:SfChart.SecondaryAxis>
+
+<chart:NumericalAxis>
+
+</chart:NumericalAxis>
+
+</chart:SfChart.SecondaryAxis>
+
+</chart:SfChart>
+{% endhighlight %}
+
+{% highlight C# %} 
+SfChart chart = new SfChart();
+
+//Initializing Primary Axis
+CategoryAxis primaryAxis = new CategoryAxis();
+
+chart.PrimaryAxis = primaryAxis;
+
+//Initializing Secondary Axis
+NumericalAxis secondaryAxis  =  new NumericalAxis  ();
+
+chart.SecondaryAxis = secondaryAxis;
+
+this.Content = chart;
+{% endhighlight %}
+
+{% endtabs %} 
+
+### Initialize view model
+
+Now, let us define a simple data model that represents a data point in [`SfChart`.](https://help.syncfusion.com/cr/cref_files/xamarin/Syncfusion.SfChart.XForms~Syncfusion.SfChart.XForms.SfChart.html)
+
+{% highlight c# %}
+public class Person   
+{   
+public string Name { get; set; }
+
+public double Height { get; set; }
+}
+{% endhighlight %} 
+
+Next, create a view model class and initialize a list of `Person` objects as shown below,
+
+{% highlight c# %}
+public class ViewModel  
+{
+public List<Person> Data { get; set; }      
+
+public ViewModel()       
+{
+Data = new List<Person>()
+{
+new Person { Name = "David", Height = 180 },
+new Person { Name = "Michael", Height = 170 },
+new Person { Name = "Steve", Height = 160 },
+new Person { Name = "Joel", Height = 182 }
+}; 
+}
+}
+{% endhighlight %} 
+
+Set the `ViewModel` instance as the `BindingContext` of your Page; this is done to bind properties of `ViewModel` to [`SfChart`.](https://help.syncfusion.com/cr/cref_files/xamarin/Syncfusion.SfChart.XForms~Syncfusion.SfChart.XForms.SfChart.html)
+
+N> Add namespace of `ViewModel` class in your XAML page if you prefer to set `BindingContext` in XAML.
+
+{% tabs %} 
+
+{% highlight xaml %} 
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+
+x:Class="ChartDemo.MainPage"
+
+xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+
+xmlns:local="clr-namespace:ChartDemo"> 
+
+<ContentPage.BindingContext>
+
+<local:ViewModel></local:ViewModel>
+
+</ContentPage.BindingContext>
+
+</ContentPage>
+{% endhighlight %}
+
+{% highlight C# %} 
+this.BindingContext = new ViewModel();
+{% endhighlight %}
+
+{% endtabs %} 
+
+### Populate Chart with data
+
+As we are going to visualize the comparison of heights in the data model, add [`ColumnSeries`](https://help.syncfusion.com/cr/cref_files/xamarin/Syncfusion.SfChart.XForms~Syncfusion.SfChart.XForms.ColumnSeries.html) to [`SfChart.Series`](https://help.syncfusion.com/cr/cref_files/xamarin/Syncfusion.SfChart.XForms~Syncfusion.SfChart.XForms.SfChart~Series.html) property, and then bind the Data property of the above `ViewModel` to the [`ColumnSeries.ItemsSource`](https://help.syncfusion.com/cr/cref_files/xamarin/Syncfusion.SfChart.XForms~Syncfusion.SfChart.XForms.ChartSeries~ItemsSource.html) property as shown below.
+
+N> You need to set [`XBindingPath`](https://help.syncfusion.com/cr/cref_files/xamarin/Syncfusion.SfChart.XForms~Syncfusion.SfChart.XForms.ChartSeries~XBindingPath.html) and [`YBindingPath`](https://help.syncfusion.com/cr/cref_files/xamarin/Syncfusion.SfChart.XForms~Syncfusion.SfChart.XForms.XyDataSeries~YBindingPath.html) properties, so that [`SfChart`](https://help.syncfusion.com/cr/cref_files/xamarin/Syncfusion.SfChart.XForms~Syncfusion.SfChart.XForms.SfChart.html) would fetch values from the respective properties in the data model to plot the series.
+
+{% tabs %}   
+
+{% highlight xaml %}
+<chart:SfChart>
+
+<chart:SfChart.PrimaryAxis>
+
+<chart:CategoryAxis>
+
+<chart:CategoryAxis.Title>
+
+<chart:ChartAxisTitle Text="Name"> </chart:ChartAxisTitle>
+
+</chart:CategoryAxis.Title>
+
+</chart:CategoryAxis>
+
+</chart:SfChart.PrimaryAxis>
+
+<chart:SfChart.SecondaryAxis>
+
+<chart:NumericalAxis>
+
+<chart:NumericalAxis.Title>
+
+<chart:ChartAxisTitle Text="Height (in cm)"></chart:ChartAxisTitle>
+
+</chart:NumericalAxis.Title>      
+
+</chart:NumericalAxis>   
+
+</chart:SfChart.SecondaryAxis>
+
+<chart:SfChart.Series>
+
+<chart:ColumnSeries ItemsSource="{Binding Data}" XBindingPath="Name" YBindingPath="Height">
+
+</chart:ColumnSeries>
+
+</chart:SfChart.Series>
+
+</chart:SfChart> 
+{% endhighlight %}
+
+{% highlight C# %}
+//Initializing primary axis
+CategoryAxis primaryAxis = new CategoryAxis();
+
+primaryAxis.Title.Text = "Name";
+
+chart.PrimaryAxis = primaryAxis;
+
+//Initializing secondary Axis
+NumericalAxis secondaryAxis = new NumericalAxis();
+
+secondaryAxis.Title.Text = "Height (in cm)";
+
+chart.SecondaryAxis = secondaryAxis;
+
+//Initializing column series
+ColumnSeries series = new ColumnSeries();
+
+series.SetBinding(ChartSeries.ItemsSourceProperty, "Data");
+
+series.XBindingPath = "Name";
+
+series.YBindingPath = "Height";
+
+chart.Series.Add(series);
+{% endhighlight %}
+
+{% endtabs %} 
+
+## <a name="output"></a>Output ##
+
+![Xamarin.Forms Getting_Started Chart image](Getting_Started_Chart_image.png)
