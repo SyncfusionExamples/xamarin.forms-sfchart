@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Chart_GettingStarted.iOS")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCopyright("Copyright (c) 2018-2019 Syncfusion. Inc,")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
