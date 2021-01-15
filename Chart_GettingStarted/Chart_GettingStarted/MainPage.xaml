@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Chart_GettingStarted"
+             xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+             x:Class="Chart_GettingStarted.MainPage">
+
+    <chart:SfChart x:Name="Chart" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+        <chart:SfChart.BindingContext>
+            <local:ViewModel/>
+        </chart:SfChart.BindingContext>
+
+        <chart:SfChart.Legend>
+            <chart:ChartLegend />
+        </chart:SfChart.Legend>
+
+        <chart:SfChart.Title>
+            <chart:ChartTitle Text="Chart"/>
+        </chart:SfChart.Title>
+
+        <chart:SfChart.PrimaryAxis>
+            <chart:CategoryAxis>
+                <chart:CategoryAxis.Title>
+                    <chart:ChartAxisTitle Text="Name"/>
+                </chart:CategoryAxis.Title>
+            </chart:CategoryAxis>
+        </chart:SfChart.PrimaryAxis>
+
+        <chart:SfChart.SecondaryAxis>
+            <chart:NumericalAxis>
+                <chart:NumericalAxis.Title>
+                    <chart:ChartAxisTitle Text="Height (in cm)"/>
+                </chart:NumericalAxis.Title>
+            </chart:NumericalAxis>
+        </chart:SfChart.SecondaryAxis>
+
+        <chart:SfChart.Series>
+            <chart:ColumnSeries ItemsSource="{Binding Data}"  Label="Heights" XBindingPath="Name" YBindingPath="Height" EnableTooltip="True">
+                <chart:ColumnSeries.DataMarker>
+                    <chart:ChartDataMarker/>
+                </chart:ColumnSeries.DataMarker>
+            </chart:ColumnSeries>
+        </chart:SfChart.Series>
+    </chart:SfChart>
+
+</ContentPage>
