@@ -1,11 +1,11 @@
 # Getting Started for Xamarin.Forms Charts
-This is demo application of Xamarin.Forms SfChart control. The minimal set of required properties have been configured in this project to get started with SfChart in Xamarin.Forms.
+[Xamarin Charts](https://www.syncfusion.com/xamarin-ui-controls/xamarin-charts/?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples), an easy-to-use, cross-platform charting package, is used to add beautiful charts to mobile and desktop apps. It contains a rich gallery of 30+ charts and graphs, ranging from line to financial charts, that cater to all charting scenarios. This is demo application of Xamarin.Forms SfChart control. The minimal set of required properties have been configured in this project to get started with SfChart in Xamarin.Forms.
 
-For more details please refer the Xamarin.Forms SfChart UG documentation [Getting Started](https://help.syncfusion.com/xamarin/sfchart/getting-started?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples) link.
+For more details please refer the Xamarin.Forms SfChart UG documentation [Getting Started](https://help.syncfusion.com/xamarin/sfchart/getting-started?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples) link.
 
 ## <a name="requirements-to-run-the-demo"></a>Requirements to run the demo ##
 
-* [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples) or [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples).
+* [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples) or [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples).
 * Xamarin add-ons for Visual Studio (available via the Visual Studio installer).
 
 ## <a name="troubleshooting"></a>Troubleshooting ##
@@ -180,45 +180,45 @@ this.Content = chart;
 ![Xamarin.Forms Getting_Started Chart image](Getting_Started_Chart_image.png)
 
 ## Related links
-[Learn More about Xamarin Charts](https://www.syncfusion.com/xamarin-ui-controls/xamarin-charts/?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples) <br/><br/>
-[Download Free Trial](https://www.syncfusion.com/downloads?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples) <br/><br/>
-[Pricing](https://www.syncfusion.com/sales/products/xamarin?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples) <br/><br/>
-[Documentation](https://help.syncfusion.com/xamarin/charts/getting-started?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples) <br/><br/>
-[Online Examples](https://github.com/syncfusion/xamarin-demos/tree/master/Forms/Chart?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples) <br/><br/>
-[Community Forums](https://www.syncfusion.com/forums/xamarin.forms/sfchart?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples) <br/><br/>
-[Suggest a feature](https://www.syncfusion.com/feedback/xamarin-forms?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples)
+[Learn More about Xamarin Charts](https://www.syncfusion.com/xamarin-ui-controls/xamarin-charts/?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples) <br/><br/>
+[Download Free Trial](https://www.syncfusion.com/downloads?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples) <br/><br/>
+[Pricing](https://www.syncfusion.com/sales/products/xamarin?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples) <br/><br/>
+[Documentation](https://help.syncfusion.com/xamarin/charts/getting-started?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples) <br/><br/>
+[Online Examples](https://github.com/syncfusion/xamarin-demos/tree/master/Forms/Chart?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples) <br/><br/>
+[Community Forums](https://www.syncfusion.com/forums/xamarin.forms/sfchart?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples) <br/><br/>
+[Suggest a feature](https://www.syncfusion.com/feedback/xamarin-forms?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples)
 
-## About Syncfusion Xamarin.Forms
-Syncfusion's [Xamarin.Forms](https://www.syncfusion.com/xamarin-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples) library offers over 155 UI components to create cross-platform native mobile apps for iOS, Android, UWP and macOS platforms from a single C# code base. In addition to Charts, we provide popular Xamarin components such as [DataGrid](https://www.syncfusion.com/xamarin-ui-controls/xamarin-datagrid?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
-[Scheduler](https://www.syncfusion.com/xamarin-ui-controls/xamarin-scheduler?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples), [Diagram](https://www.syncfusion.com/xamarin-ui-controls/xamarin-diagram?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples), and [Maps](https://www.syncfusion.com/xamarin-ui-controls/xamarin-maps?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples).
+## About Syncfusion Xamarin UI Controls
+Syncfusion's [Xamarin.Forms](https://www.syncfusion.com/xamarin-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples) library offers over 155 UI controls to create cross-platform native mobile apps for iOS, Android, UWP and macOS platforms from a single C# code base. In addition to Charts, we provide popular Xamarin controls such as [DataGrid](https://www.syncfusion.com/xamarin-ui-controls/xamarin-datagrid?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
+[Scheduler](https://www.syncfusion.com/xamarin-ui-controls/xamarin-scheduler?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples), [Diagram](https://www.syncfusion.com/xamarin-ui-controls/xamarin-diagram?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples), and [Maps](https://www.syncfusion.com/xamarin-ui-controls/xamarin-maps?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples).
 
 ## About Syncfusion
 Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 23,000+ customers and more than 1 million users, including large financial institutions, Fortune 500 companies, and global IT consultancies.
  
 Today, we provide 1600+ controls and frameworks for web
-([Blazor](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
-[ASP.NET Core](https://www.syncfusion.com/aspnet-core-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
-[ASP.NET MVC](https://www.syncfusion.com/aspnet-mvc-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
-[ASP.NET WebForms](https://www.syncfusion.com/jquery/aspnet-webforms-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
-[JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
-[Angular](https://www.syncfusion.com/angular-ui-components?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
-[React](https://www.syncfusion.com/react-ui-components?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
-[Vue](https://www.syncfusion.com/vue-ui-components?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
+([Blazor](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
+[ASP.NET Core](https://www.syncfusion.com/aspnet-core-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
+[ASP.NET MVC](https://www.syncfusion.com/aspnet-mvc-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
+[ASP.NET WebForms](https://www.syncfusion.com/jquery/aspnet-webforms-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
+[JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
+[Angular](https://www.syncfusion.com/angular-ui-components?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
+[React](https://www.syncfusion.com/react-ui-components?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
+[Vue](https://www.syncfusion.com/vue-ui-components?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
 and 
-[Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples)),
+[Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples)),
 mobile
-([Xamarin](https://www.syncfusion.com/xamarin-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
-[Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
-[UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
+([Xamarin](https://www.syncfusion.com/xamarin-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
+[Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
+[UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
 and
-[JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples)),
+[JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples)),
 and desktop development ([Windows
-Forms](https://www.syncfusion.com/winforms-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
-[WPF](https://www.syncfusion.com/wpf-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
-[WinUI(Preview)](https://www.syncfusion.com/winui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples),
-[Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples)
+Forms](https://www.syncfusion.com/winforms-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
+[WPF](https://www.syncfusion.com/wpf-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
+[WinUI(Preview)](https://www.syncfusion.com/winui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples),
+[Flutter](https://www.syncfusion.com/flutter-widgets?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples)
 and
-[UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples)).
+[UWP](https://www.syncfusion.com/uwp-ui-controls?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples)).
 We provide ready-to-deploy enterprise software for dashboards, reports,
 data integration, and big data processing. Many customers have saved
 millions in licensing fees by deploying our software.
@@ -227,7 +227,7 @@ millions in licensing fees by deploying our software.
 <hr style="height:0.3px;border:none;color:lightgrey;background-color:lightgrey;" />
 
 <p align="center">
-  <a href="mailto:sales@syncfusion.com?Subject=Syncfusion Xamarin Charts - Github" target="_top">sales@syncfusion.com</a> | <a href="https://www.syncfusion.com?utm_source=github&utm_medium=listing&utm_campaign=xamarin-chars-github-samples">www.syncfusion.com</a> | 1-888-9 DOTNET <br>
+  <a href="mailto:sales@syncfusion.com?Subject=Syncfusion Xamarin Charts - Github" target="_top">sales@syncfusion.com</a> | <a href="https://www.syncfusion.com?utm_source=github&utm_medium=listing&utm_campaign=xamarin-charts-github-samples">www.syncfusion.com</a> | 1-888-9 DOTNET <br>
 </p>
 
 
